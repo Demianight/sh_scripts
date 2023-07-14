@@ -12,3 +12,6 @@ sudo snap install telegram-desktop
 sudo snap install code --classic
 sudo snap install discord
 sudo snap install trello-desktop
+
+sudo groupadd docker
+sudo usermod -aG docker $USER
